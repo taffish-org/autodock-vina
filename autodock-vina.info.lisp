@@ -1,0 +1,7 @@
+(:name           "autodock-vina")
+(:repo           "taffish-org/autodock-vina")
+(:author         "KaiyuanHan")
+(:version        "1.2.7")
+(:intro          "AutoDock Vina is one of the fastest and most widely used open-source docking engines.")
+(:dependencies)
+(:functions      "autodock-vina")

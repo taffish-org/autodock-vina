@@ -1,0 +1,10 @@
++TOOL:autodock-vina
+ARGS
+    <else>
+        vina --help
+    <main>
+        vina ::*APP-ARGS*::
+RUN
+    <container:taf-autodock-vina-v1.2.7:ghcr.io/taffish-org/autodock-vina:1.2.7>
+        source /vinaenv/bin/activate
+        ::*MAIN*::
